@@ -1,0 +1,67 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-image: url("main2.jpg");
+    
+
+    
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    padding: auto;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #0bea52;
+    /* modify margin and padding here*/
+    padding: 100px;
+    margin-bottom: 50px;
+
+    width:310px;
+    font-family: fantasy;
+    font-size: xx-large;
+    
+    
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+h1{
+    font-size: 50px;
+}
+.header1{
+
+    font-size: 6000px;
+}
+.bodyimg{
+    color: #47456e;
+    font-size: xx-large;
+}
+a:link{
+    color: #47456e;
+}
+a:visited{
+    color:beige;
+}
